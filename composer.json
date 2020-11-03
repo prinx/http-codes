@@ -1,0 +1,19 @@
+{
+    "name": "prinx/http-code",
+    "description": "PHP class for HTTP Response Codes",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Prince Dorcis",
+            "email": "princedorcis@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Prinx\\HttpCode\\": "src/"
+        }
+    }
+}
