@@ -1,4 +1,4 @@
-# HTTP CODE
+# HTTP CODES
 
 <p>
 <a href="https://travis-ci.org/prinx/http-codes"><img src="https://travis-ci.com/prinx/http-codes.svg?branch=main" alt="Build Status"></a>
