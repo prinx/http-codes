@@ -1,4 +1,10 @@
-#
+# HTTP CODES
+
+<p>
+<a href="https://travis-ci.org/prinx/http-codes"><img src="https://travis-ci.com/prinx/http-codes.svg?branch=main" alt="Build Status"></a>
+<a href="https://packagist.org/packages/prinx/http-codes"><img src="https://poser.pugx.org/prinx/http-codes/license" alt="License"></a>
+</p>
+
 
 PHP class for HTTP Response Codes
 
@@ -6,7 +12,6 @@ PHP class for HTTP Response Codes
 
 ```shell
 composer require prinx/http-codes
-
 ```
 
 ## Usage
