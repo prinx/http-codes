@@ -13,10 +13,10 @@ composer require prinx/http-codes
 
 ```php
 // "Import" the class
-use prinx\HttpCode\Code as HTTP;
+use Prinx\HttpCode\Code as HTTP;
 
 // Use the code in your code.
-echo HTTP::OK;
+echo HTTP::OK; // 200
 ```
 
 ## Contribute
