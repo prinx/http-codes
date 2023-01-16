@@ -1,8 +1,8 @@
 <?php
 
-namespace Phpolar\HttpCode;
+namespace Phpolar\HttpCodes;
 
-class Code
+final class ResponseCode
 {
     // INFORMATIONAL
 
