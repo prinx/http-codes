@@ -3,7 +3,7 @@
 namespace Tests\Unit;
 
 use PHPUnit\Framework\TestCase;
-use Prinx\HttpCode\Code;
+use Phpolar\HttpCode\Code;
 use ReflectionClass;
 
 class HttpCodeTest extends TestCase

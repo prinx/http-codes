@@ -1,6 +1,6 @@
 <?php
 
-namespace Prinx\HttpCode;
+namespace Phpolar\HttpCode;
 
 class Code
 {

@@ -1,11 +1,5 @@
 # HTTP CODES
 
-<p>
-<a href="https://travis-ci.org/prinx/http-codes"><img src="https://travis-ci.com/prinx/http-codes.svg?branch=main" alt="Build Status"></a>
-<a href="https://packagist.org/packages/prinx/http-codes"><img src="https://poser.pugx.org/prinx/http-codes/license" alt="License"></a>
-</p>
-
-
 PHP class for HTTP Response Codes
 
 ## Installation
@@ -18,7 +12,7 @@ composer require prinx/http-codes
 
 ```php
 // "Import" the class
-use Prinx\HttpCode\Code as HTTP;
+use Phpolar\HttpCode\Code as HTTP;
 
 // Use the code in your code.
 echo HTTP::OK; // 200

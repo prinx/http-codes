@@ -1,26 +1,41 @@
 {
-    "name": "prinx/http-codes",
-    "description": "PHP class for HTTP Response Codes",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Prince Dorcis",
-            "email": "princedorcis@gmail.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "autoload": {
-        "psr-4": {
-            "Prinx\\HttpCode\\": "src/"
-        }
+  "name": "prinx/http-codes",
+  "description": "PHP class for HTTP Response Codes",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Prince Dorcis",
+      "email": "princedorcis@gmail.com"
     },
-    "autoload-dev": {
-        "psr-4": {
-            "Tests\\": "tests/"
-        }
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^9.5"
+    {
+      "name": "Eric Fortmeyer",
+      "email": "e.fortmeyer01@gmail.com"
     }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Phpolar\\HttpCode\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5",
+    "phan/phan": "v5.x-dev",
+    "squizlabs/php_codesniffer": "4.0.x-dev"
+  },
+  "scripts": {
+    "analyze-strict": "phan --no-progress-bar --strict-type-checking --analyze-twice --color --output-mode=text --color-scheme=light",
+    "lint": "phpcs",
+    "lint-fix": "phpcbf",
+    "test": "phpunit",
+    "ci:analyze": "composer exec \"@analyze-strict\"",
+    "ci:lint": "composer exec \"@lint\"",
+    "ci:test": "composer \"@test\""
+  }
 }
