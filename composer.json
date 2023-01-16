@@ -36,6 +36,6 @@
     "test": "phpunit",
     "ci:analyze": "composer exec \"@analyze-strict\"",
     "ci:lint": "composer exec \"@lint\"",
-    "ci:test": "composer \"@test\""
+    "ci:test": "composer exec \"@test\""
   }
 }
