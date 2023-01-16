@@ -1,5 +1,5 @@
 {
-  "name": "prinx/http-codes",
+  "name": "phpolar/http-codes",
   "description": "PHP class for HTTP Response Codes",
   "type": "library",
   "license": "MIT",
