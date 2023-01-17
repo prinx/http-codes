@@ -5,7 +5,7 @@ PHP class for HTTP Response Codes
 ## Installation
 
 ```shell
-composer require prinx/http-codes
+composer require phpolar/http-codes
 ```
 
 ## Usage
