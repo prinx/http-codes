@@ -5,7 +5,7 @@ namespace Phpolar\HttpCodes;
 use PHPUnit\Framework\TestCase;
 use ReflectionClass;
 
-class HttpCodeTest extends TestCase
+class ResponseCodeTest extends TestCase
 {
     public function testCodesAndNamesMatchConventions()
     {
